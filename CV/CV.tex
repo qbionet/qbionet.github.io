@@ -1,0 +1,269 @@
+\documentclass[12pt,a4paper]{moderncv_Andris}
+% moderncv styles
+%\moderncvtheme[grey]{casual} % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+
+
+\moderncvtheme[blue]{classic}                % idem
+\newcommand{\ts}{\textsuperscript}
+
+
+
+
+\usepackage{color}
+
+% character encoding
+\usepackage[latin1]{inputenc}   % replace by the encoding you are using
+%\usepackage{palatino}
+\renewcommand\familydefault{\sfdefault}
+
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\usepackage{anysize}
+\marginsize{1in}{1in}{1in}{1in}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+\usepackage{savesym}
+\savesymbol{Cross} 
+\usepackage{bbding} 
+\restoresymbol{bb}{Cross} 
+\usepackage{pifont}
+
+
+
+% personal data
+\firstname{Andras}
+\familyname{Gyorgy}
+\title{}              	      % optional, remove the line if not wanted
+\address{\textcolor{szurke}{University of California, Berkeley\\Department of Electrical Engineering\\and Computer Science}}
+{\textcolor{szurke}{558 Cory Hall, Berkeley, CA 94720}}
+%\mobile{mobile (optional)}                    % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted                   
+\extrainfo{\textcolor{szurke}{\ding{43} http://www.mit.edu/\textasciitilde gyorgy \\ \Letter \hspace{0mm} gyorgy@berkeley.edu \quad \ding{38} 617.943.6171}}
+
+%\email{gyorgy@mit.edu} 
+%\phone{\textcolor{szurke}{(617) 943 6171}}                      % optional, remove the line if not wanted
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith}
+% optional, remove the line if not wanted
+%\extrainfo{Date of birth: 2 April 1981\\Nationality: Italian}
+%\extrainfo{Nationality: Italian}
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% command and color used in this document, independently from moderncv
+%\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+%\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\definecolor{szurke}{RGB}{70,70,70}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\fancyhf{}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lhead{\color{szurke}Andras Gyorgy}
+\rhead{\color{szurke}Curriculum Vit\ae}
+\cfoot{\color{szurke}\thepage/\pageref{LastPage}}
+
+\fancypagestyle{firstpage}{%
+  \fancyhf{}
+  \renewcommand\headrulewidth{0pt}
+  \fancyfoot[C]{\color{szurke}\thepage/\pageref{LastPage}}
+}
+
+
+\begin{document}
+\thispagestyle{firstpage}
+\maketitle
+%\makequote
+
+\section{Education}
+\cventry{2016}{Massachusetts Institute of Technology}{}{}{}{\textbf{PhD in  Electrical Engineering}\\Thesis: Functional modularity of gene networks 
+\\
+Advisor: Domitilla Del Vecchio}
+\cventry{2011}{Budapest University of Technology and Economics, Hungary}{}{}{}{MS in Biomedical Engineering}
+\cventry{2009}{Budapest University of Technology and Economics, Hungary}{}{}{}{MS in Electrical Engineering}
+
+
+
+\section{Publications}
+
+
+\subsection{Journal papers}
+\cvitem{\textbf{[1]}}{
+	\textbf{A Gyorgy}, M Arcak (2017) \newblock Pattern formation over multigraphs, \newblock \emph{IEEE Transactions on Network Science and Engineering (Accepted)}} 
+\cvitem{\textbf{[2]}}{
+	JW Lee, \textbf{A Gyorgy}, DE Cameron, N Pyenson, KR Choi, JC Way, PA Silver, D Del Vecchio, JJ Collins (2016) \newblock Creating single-copy genetic circuits, \newblock \emph{Molecular Cell, 63(2):329--336}} 
+\cvitem{\textbf{[3]}}{
+	\textbf{A Gyorgy}, JI Jimenez, J Yazbek, H Chung, R Weiss, D Del Vecchio (2015) \newblock Isocost lines describe the cellular economy of genetic circuits, \newblock \emph{Biophysical Journal, 109(3):639--646}} 
+\cvitem{\textbf{[4]}}{
+	\textbf{A Gyorgy}, D Del Vecchio (2014) \newblock Modular composition of gene transcription networks, \newblock \emph{PLoS Computational Biology}, 10(3): e1003486}
+\cvitem{\textbf{[5]}}{
+	\textbf{A Gyorgy}, L Kovacs, P Szalay, DA Drexler, B Benyo, Z Benyo (2011) \newblock Quasi-model-based control of type 1 diabetes mellitus, \newblock \emph{Journal of Electrical and Computer Eng}, 4}
+\cvitem{\textbf{[6]}}{
+	L Kovacs, B Kulcsar, \textbf{A Gyorgy}, Z Benyo (2011) \newblock Robust servo control of a novel type 1 diabetic model, \newblock \emph{Optimal Control Application and Methods, John Wiley \& Sons}, 2:215--238}
+
+
+\clearpage
+\subsection{Conference papers}
+\cvitem{\textbf{[1]}}{
+	\textbf{A Gyorgy}, M Arcak (2017) \newblock Pattern formation over graphs with asymmetric connections, \newblock \emph{IFAC World Congress}}
+\cvitem{\textbf{[2]}}{
+	\textbf{A Gyorgy}, RM Murray (2016) \newblock Quantifying resource competition and its effects in the TX-TL System, \newblock \emph{IEEE Conference on Decision and Control}}
+\cvitem{\textbf{[3]}}{
+	TP Prescott, \textbf{A Gyorgy} (2015) \newblock Bounding the effect of retroactivity in the presence of parameter uncertainty, \newblock \emph{IEEE American Control Conference}}
+\cvitem{\textbf{[4]}}{
+	\textbf{A Gyorgy}, D Del Vecchio (2014) \newblock Limitations and trade-offs in gene expression due to competition for shared cellular resources (invited paper), \newblock \emph{IEEE Conference on Decision and Control}}
+\cvitem{\textbf{[5]}}{
+	\textbf{A Gyorgy}, D Del Vecchio (2013) \newblock How slaves affect a master module in gene transcription networks (invited paper), \newblock \emph{IEEE Conference on Decision and Control}}
+\cvitem{\textbf{[6]}}{
+	\textbf{A Gyorgy}, D Del Vecchio (2012) \newblock Retroactivity to the input and Thevenin's theorem for complex gene transcription networks (invited paper), \newblock \emph{IEEE Conference on Decision and Control}}
+\cvitem{\textbf{[7]}}{
+	L Kovacs, \textbf{A Gyorgy}, P Szalay, DA Drexler, B Benyo, Z Benyo (2011) \newblock Quasi model based optimal control of type 1 diabetes mellitus, \newblock \emph{IFAC World Congress}}
+\cvitem{\textbf{[8]}}{
+	\textbf{A Gyorgy}, P Szalay, Z Benyo, B Benyo, A Kovacsa, L Kovacs (2010) \newblock ANFIS regulated type 1 diabetic model for different glucose absorption scenarios, \newblock \emph{IEEE Conference on Intelligent Engineering Systems}}
+\cvitem{\textbf{[9]}}{
+	L Kovacs, \textbf{A Gyorgy}, B Kulcsar, P Szalay, B Benyo, Z Benyo (2010) \newblock Robust control of type 1 diabetes using $\mu$-synthesis, \newblock \emph{UKACC Conference on Control}}
+\cvitem{\textbf{[10]}}{
+	L Kovacs, \textbf{A Gyorgy}, P Szalay, B Benyo, Z Benyo, CE Hann, JG Chase (2010) \newblock Investigating the applicability of qALPV modeling to ICU models for glycaemic control, \newblock \emph{UKACC Conference on Control}}
+\cvitem{\textbf{[11]}}{
+	\textbf{A Gyorgy}, I Harmati (2009) \newblock Motion planning algorithms for tactical actions in robot soccer, \newblock \emph{IEEE European Control Conference}}
+\cvitem{\textbf{[11]}}{
+	L Kovacs, \textbf{A Gyorgy}, Zs Almassy, Z Benyo (2009) \newblock Analyzing a novel model of human blood glucose system at molecular levels, \newblock \emph{IEEE European Control Conference}}
+\cvitem{\textbf{[12]}}{
+	L Kovacs, \textbf{A Gyorgy}, B Benyo (2009) \newblock Type 1 diabetes regulated by ANFIS at molecular levels, \newblock \emph{World Congress on Medical Physics and Biomedical Engineering}}
+\cvitem{\textbf{[13]}}{
+	\textbf{A Gyorgy}, T Barbarics, Zs Puspoki, J Padanyi (2009) \newblock Application of neural networks in mine detection, \newblock \emph{International Conference on Climbing and Walking Robots and the Support Technologies for Mobile Machines}}
+
+\clearpage
+\subsection{In preparation}
+\cvitem{\textbf{[1]}}{
+	\textbf{A Gyorgy}, D Del Vecchio. \newblock Price and utility of proteins in synthetic gene circuits, \newblock \textit{Submitted}} 
+\cvitem{\textbf{[2]}}{
+
+
+
+
+
+
+
+
+\section{Research Experience}
+\cventry{2016-}{University of California, Berkeley}{}{}{}{Post-doctoral researcher, pattern formation and biological control (Murat Arcak)} \vspace{0.1cm}
+\cventry{2014}{California Institute of Technology}{}{}{}{Visiting researcher, characterization of resource competition \textit{in vitro} (Richard Murray)}
+\cventry{2010-2016}{Massachusetts Institute of Technology}{}{}{}{Research assistant in the Control Networks Group (Domitilla Del Vecchio)}
+\cventry{2009}{University of Oxford, UK}{}{}{}{Summer researcher at the Department of Statistics (Jotun Hein)}
+\cventry{2007--2009}{Budapest University of Technology and Economics, Hungary}{}{}{}{Research assistant, design of a robot soccer platform (Istvan Harmati) and pattern recognition with machine learning (Tamas Barbarics)}
+
+
+
+
+
+\section{Teaching Experience}
+\cventry{2013}{Massachusetts Institute of Technology}{}{}{}{Teaching assistant for Introduction to Numerical Simulation, 1 semester (Luca Daniel)}
+\cventry{2009--2010}{Budapest University of Technology and Economics}{}{}{}{Teaching assistant for Control Theory in Biology, 2 semesters (Levente Kovacs)}
+\cventry{2006--2009}{Budapest University of Technology and Economics}{}{}{}{Teaching assistant for Signals and Systems I--II, 6 semesters (Tamas Barbarics)}
+
+\section{Select Awards}
+%\cventry{2007--2009}{Budapest University of Technology and Economics}{}{}{}{Scholarship of the Department of Electrical Engineering and Informatics}
+\cventry{2006--2009}{GE Foundation Scholar Leaders Program}{}{}{}{}
+\cventry{2009}{Pro Scientia Gold Medal of National Scientific Student Council, Hungary}{}{}{}{}
+%\cventry{2009}{Scientific Students' Associations, Hungary}{}{}{}{1\ts{st} Award}
+%\cventry{2008}{Scientific Students' Associations, Hungary}{}{}{}{1\ts{st}, 2\ts{nd} and Pro Progressio Award}
+%\cventry{2007--2010}{Scholarship of the Hungarian Republic}{}{}{}{}
+
+
+\section{Industry Experience}
+\cventry{2008}{Dolphio Consulting Ltd., Hungary}{}{}{}{Summer intern, image processing applications (Zsolt Robotka)}
+
+
+
+
+
+%\subsection{Posters}
+%
+%\cvitem{\textbf{[1]}}{
+%\textbf{A Gyorgy}, D Del Vecchio (2015) \newblock Simplexes characterize the coupling in gene expression due to competition for RNAP and ribosomes, \newblock \emph{Synthetic Biology, Evolution, Engineering and Design}}
+%
+%\cvitem{\textbf{[2]}}{
+%\textbf{A Gyorgy}, JI Jimenez, H Chung, R Weiss, D Del Vecchio (2014) \newblock Isocost lines in the cellular economy: gene expression is coupled due to competition for shared resources, \newblock \emph{Synthetic Biology, Evolution, Engineering and Design}}
+%
+%\cvitem{\textbf{[3]}}{
+%\textbf{A Gyorgy}, D Del Vecchio (2014) \newblock Analysis and design of multi-module systems by accounting for retroactivity, \newblock \emph{Annual Symposium on Synthetic Biology at MIT}}
+%
+%\cvitem{\textbf{[4]}}{
+%\textbf{A Gyorgy}, D Del Vecchio (2013) \newblock Modular composition of gene transcription networks, \newblock \emph{International Conference of Systems Biology}}
+%
+%\cvitem{\textbf{[5]}}{
+%\textbf{A Gyorgy}, D Del Vecchio (2012) \newblock Modularity in complex gene transcrition networks, \newblock \emph{International Conference of Systems Biology}}
+
+
+\section{Professional Service}
+\cventry{2014--2015}{Member of student council}{}{}{}{Center for Integrative Synthetic Biology, Massachusetts Institute of Technology}
+\cventry{2014}{Organizer of invited session on ``Context-dependence in biology''}{}{}{}{IEEE Conference on Decision and Control}
+\cventry{2012--}{Student member of IEEE}{}{}{}{}
+\cventry{2010--}{Reviewer}{}{}{}{IEEE Life Sciences Letters, Journal of the Royal Society Interface, Systems and Synthetic Biology, IEEE CDC, IEEE ACC}
+\cventry{2009--2010}{Co-supervisor of MSc projects in control theory}{}{}{}{Budapest University of Technology and Economics, Hungary}
+
+
+
+
+
+
+
+\section{Talks}
+\cventry{2015}{Foundations of Systems Biology in Engineering, Boston, MA}{}{}{}{A systems-level approach to characterize context-dependence in biomolecular networks}
+\cventry{2014}{Winter q-bio Meeting, Maui, HI}{}{}{}{Dynamics of complex gene transcription networks}%: from single modules to multi-module systems}
+\cventry{2013}{Design Automation Conference, Austin, TX}{}{}{}{Modularity in gene transcription networks (invited talk)} %Workshop on Modeling of Biological Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{References}
+\cventry{}{Domitilla Del Vecchio \hfill  \textmd{ddv@mit.edu}}{}{}{}{Massachusetts Institute of Technology \hfill 617.324.6108}
+\cventry{}{Murat Arcak\hfill \textmd{arcak@berkeley.edu}}{}{}{}{University of California, Berkeley \hfill 510.642.4804} 
+\cventry{}{Richard M. Murray \hfill \textmd{murray@cds.caltech.edu}}{}{}{}{California Institute of Technology \hfill 626.395.6460 }
+\cventry{}{Jose I. Jimenez \hfill  \textmd{j.jimenez@surrey.ac.uk}}{}{}{}{University of Surrey \hfill 01483684557}
+\cventry{}{Ron Weiss \hfill  \textmd{rweiss@mit.edu}}{}{}{}{Massachusetts Institute of Technology \hfill 617.253.8966}
+\cventry{}{James J. Collins \hfill  \textmd{jimjc@mit.edu}}{}{}{}{Massachusetts Institute of Technology \hfill 617.324.6607}
+
+\vfill
+\today
+
+%\section{Languages}
+%\cvitem{}{\textbf{Hungarian} (native), \textbf{English} (fluent), \textbf{French} (intermediate), \textbf{German} (basic)}
+
+
+%\section{Programming}
+%\cvitem{}{\textbf{C}, \textbf{C++}, \textbf{MATLAB}, \textbf{Maple}, \textbf{HTML}, \textbf{PHP}, \textbf{Java}}
+
+
+
+
+
+
+%\section{Other Activities}
+%\cventry{2006--2008}{Volunteer Work}{}{Hungary}{}{Assistance with household jobs was provided for a woman with mental disability}
+
+%\section{Personal Interests}
+%\cvitem{}{Enthusiastic fan of classical science fiction}
+
+\end{document}
