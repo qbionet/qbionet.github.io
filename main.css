@@ -10,26 +10,14 @@ body {
     background:#FEFEFE;
     color: dimgrey;
     font-weight: 300;
-    max-width: inherit;
 }
 
 .center-stripe{
-    width: 80%;
-    max-width: 1000px;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 20px;
     font-family: 'PT Sans';
     font-weight: 300;
-}
-.main-stripe{
-    width: 70%;
-    margin-right: 10%;
-    float:left;
-}
-.side-stripe{
-    width: 20%;
-    float: right;
 }
 
 .nav-bar{
